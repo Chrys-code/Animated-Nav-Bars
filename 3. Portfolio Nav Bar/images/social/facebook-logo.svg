@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.255" height="45.255" viewBox="0 0 45.255 45.255">
+  <g id="facebook-logo" transform="translate(0.127 0.127)">
+    <g id="Facebook-logo-group" transform="translate(-0.127)">
+      <path id="Facebook-logo-2" data-name="Facebook-logo" d="M9.085,9.982,9.5,6.77H6.906V4.686c0-.879.362-1.735,1.524-1.735H9.609V.217A12.18,12.18,0,0,0,7.516,0C5.38,0,3.984,1.538,3.984,4.323V6.77H1.609V9.982H3.984v7.764H6.906V9.982Z" transform="translate(17.018 15.012)" fill="#5151ff"/>
+      <g id="Inner-frame" transform="translate(22.755 5.501) rotate(45)" fill="none">
+        <path d="M0,0H24V24H0Z" stroke="none"/>
+        <path d="M 1 1 L 1 23 L 23 23 L 23 1 L 1 1 M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z" stroke="none" fill="#a877ff"/>
+      </g>
+      <g id="Outter-frame" transform="translate(22.627 -0.127) rotate(45)" fill="none" stroke="#a877ff" stroke-width="2">
+        <rect width="32" height="32" stroke="none"/>
+        <rect x="1" y="1" width="30" height="30" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

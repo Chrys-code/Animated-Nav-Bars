@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/* Overall/repetative styling */
+
+* {
+  margin: 0px;
+  /*padding: 0px;*/
+  box-sizing: border-box;
+}
+
+
+/* When implemented in Portfolio change position to absolute when this piece of code placed 
+in NAV as NAV has fixed position
+Then re-write some properties like smth else isntead of top:10vh */
+
+.side-nav {
+    position: fixed;
+    border: 4px solid rgba(209, 171, 247, 0.699);
+    height: 80vh;
+    width: 80vh;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateX(-110%) rotateZ(-45deg);
+    transition: 0.6s ease;
+}
+
+.nav-border {
+    position: absolute;
+    border: 1px solid rgb(185, 120, 250);
+    height: 80vh;
+    width: 80vh;
+    transform: translateX(-10%) translateY(-10%);
+    transition: 0.6s ;
+}
+
+.nav-links {
+    transform: translateX(200%) translateY(160%) rotateZ(45deg);
+}
+
+.nav-links li {
+    opacity: 0;
+    color: #A877FF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 2px;  
+}
+
+.nav-links li:hover {
+    color: #02B9C7;
+}
+
+.nav-handler {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: rotateZ(45deg);
+}
+
+.nav-active {
+    transform: translateX(-90%) rotateZ(-45deg);
+}
+
+.handler-active {
+    transition: 1s ease-in;
+    transform: rotateZ(180deg);
+}
+
+.border-active {
+    transform: translateX(1%) translateY(1%);
+}
+
+
+@keyframes navFade {
+    from {
+        opacity:0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+
+
